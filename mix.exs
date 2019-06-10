@@ -4,7 +4,7 @@ defmodule CredoDemoPlugin.MixProject do
   def project do
     [
       app: :credo_demo_plugin,
-      version: "0.1.0-rc1",
+      version: "0.1.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -40,7 +40,7 @@ defmodule CredoDemoPlugin.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:credo, "~> 1.1.0-rc2"}
+      {:credo, "~> 1.1.0"}
     ]
   end
 end
