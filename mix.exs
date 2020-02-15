@@ -4,7 +4,7 @@ defmodule CredoDemoPlugin.MixProject do
   def project do
     [
       app: :credo_demo_plugin,
-      version: "0.1.1",
+      version: "0.1.2",
       elixir: "~> 1.6",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
