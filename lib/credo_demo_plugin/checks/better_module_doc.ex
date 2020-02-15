@@ -9,7 +9,7 @@ defmodule CredoDemoPlugin.BetterModuleDoc do
   ]
 
   # you can configure the basics of your check via the `use Credo.Check` call
-  use Credo.Check, base_priority: :high, category: :readbility, exit_status: 0
+  use Credo.Check, base_priority: :high, category: :readbility
 
   @doc false
   def run(_source_file, _params \\ []) do

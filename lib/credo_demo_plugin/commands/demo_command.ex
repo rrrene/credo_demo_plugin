@@ -1,6 +1,8 @@
 defmodule CredoDemoPlugin.DemoCommand do
   @moduledoc false
 
+  use Credo.CLI.Command
+
   alias Credo.CLI.Output.UI
   alias Credo.Execution
 
