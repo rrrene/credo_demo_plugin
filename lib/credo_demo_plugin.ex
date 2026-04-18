@@ -1,6 +1,9 @@
 defmodule CredoDemoPlugin do
   @config_file File.read!(".credo.exs")
 
+  #
+  # See https://hexdocs.pm/credo/Credo.Plugin.html
+  #
   import Credo.Plugin
 
   def init(exec) do

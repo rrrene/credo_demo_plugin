@@ -1,4 +1,8 @@
 defmodule CredoDemoPlugin.SetDemoAsDefaultCommand do
+  #
+  # This is an example task that sets the "demo" command, which is defined in this plugin,
+  # as default command so that it is executed when the user types `mix credo`
+  #
   use Credo.Execution.Task
 
   alias Credo.CLI.Options
